@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "text": "I enjoy taking risks in social situations, even if they make me uncomfortable.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 2,
+      "text": "I often challenge traditional ways of thinking in group settings.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 3,
+      "text": "I feel comfortable speaking out against the majority opinion.",
+      "weights": { "morality": 2, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 4,
+      "text": "I am more inclined to take risks if I believe they could benefit others.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 5,
+      "text": "I often feel energized by uncertainty in social situations.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 6,
+      "text": "I am willing to risk social rejection to stay true to my beliefs.",
+      "weights": { "morality": 4, "order": 4 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 7,
+      "text": "I value pushing boundaries in social norms to encourage progress.",
+      "weights": { "morality": 3, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 8,
+      "text": "I feel uncomfortable breaking social conventions, even for a good reason.",
+      "weights": { "morality": 0, "order": 3 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 9,
+      "text": "I enjoy introducing controversial topics into discussions.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 10,
+      "text": "I am comfortable trying new and unconventional approaches in social situations.",
+      "weights": { "morality": 1, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 11,
+      "text": "I would rather risk failure than avoid taking a chance in a social setting.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 12,
+      "text": "I often experiment with new ways of interacting with others.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 13,
+      "text": "I am willing to risk criticism to express my true thoughts.",
+      "weights": { "morality": 3, "order": 4 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 14,
+      "text": "I see social risks as opportunities for personal growth.",
+      "weights": { "morality": 2, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 15,
+      "text": "I feel exhilarated by the idea of challenging societal expectations.",
+      "weights": { "morality": 1, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 16,
+      "text": "I sometimes avoid risks to maintain harmony in social settings.",
+      "weights": { "morality": 1, "order": 3 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 17,
+      "text": "I believe taking risks in social dynamics is necessary to inspire change.",
+      "weights": { "morality": 3, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 18,
+      "text": "I find it rewarding to challenge my own comfort zone in social situations.",
+      "weights": { "morality": 2, "order": 5 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 19,
+      "text": "I believe the potential for growth outweighs the fear of rejection in social settings.",
+      "weights": { "morality": 2, "order": 4 },
+      "category": "Social Risk-Taking"
+    },
+    {
+      "id": 20,
+      "text": "I often inspire others by taking bold steps in social situations.",
+      "weights": { "morality": 3, "order": 4 },
+      "category": "Social Risk-Taking"
+    }
+  ]
+  

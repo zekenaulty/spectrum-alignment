@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "text": "I believe rules are essential for maintaining order in society.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 2,
+      "text": "Breaking the law is unacceptable, even for a good reason.",
+      "weights": { "morality": 1, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 3,
+      "text": "Tradition and customs should be preserved whenever possible.",
+      "weights": { "morality": 0, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 4,
+      "text": "I feel comfortable deferring to authority figures.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 5,
+      "text": "It is important to obey laws even if I disagree with them.",
+      "weights": { "morality": 1, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 6,
+      "text": "Rules and policies should be followed to ensure fairness.",
+      "weights": { "morality": 2, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 7,
+      "text": "A society without rules would fall into chaos.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 8,
+      "text": "People should challenge authority only when absolutely necessary.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 9,
+      "text": "I value stability and order over personal freedom.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 10,
+      "text": "Laws and regulations exist to protect the greater good.",
+      "weights": { "morality": 2, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 11,
+      "text": "I feel uncomfortable when people openly defy rules.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 12,
+      "text": "Respecting authority figures is a key aspect of a functional society.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 13,
+      "text": "It is better to work within the system to create change rather than break the rules.",
+      "weights": { "morality": 2, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 14,
+      "text": "I believe that traditions help maintain the identity of a society.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 15,
+      "text": "Breaking rules often leads to more harm than good.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 16,
+      "text": "I often support decisions made by authority figures, even if I don't fully agree with them.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 17,
+      "text": "A strong set of rules helps people feel safe and secure.",
+      "weights": { "morality": 1, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 18,
+      "text": "Traditions and rules provide a sense of continuity in changing times.",
+      "weights": { "morality": 1, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 19,
+      "text": "I often encourage others to respect rules and laws.",
+      "weights": { "morality": 2, "order": 4 },
+      "category": "Respect for Rules and Authority"
+    },
+    {
+      "id": 20,
+      "text": "Rebellion is rarely justified when order is at stake.",
+      "weights": { "morality": 0, "order": 5 },
+      "category": "Respect for Rules and Authority"
+    }
+  ]
+  

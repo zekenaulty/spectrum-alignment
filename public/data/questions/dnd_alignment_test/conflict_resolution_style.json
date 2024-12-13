@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "text": "I prefer to avoid conflict whenever possible.",
+      "weights": { "morality": 2, "order": 3 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 2,
+      "text": "I am comfortable addressing conflicts directly and openly.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 3,
+      "text": "I believe compromise is essential to resolving disagreements.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 4,
+      "text": "I often try to mediate between others when they are in conflict.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 5,
+      "text": "I believe it is more important to maintain harmony than to \"win\" an argument.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 6,
+      "text": "I am willing to let go of minor issues to avoid escalating a disagreement.",
+      "weights": { "morality": 3, "order": 4 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 7,
+      "text": "I believe rules should be followed strictly in disputes.",
+      "weights": { "morality": 1, "order": 5 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 8,
+      "text": "I try to understand both sides of an argument before forming an opinion.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 9,
+      "text": "I think it is important to stand firm in disagreements to assert one's values.",
+      "weights": { "morality": 3, "order": 3 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 10,
+      "text": "I often try to find creative solutions to resolve conflicts.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 11,
+      "text": "I prioritize resolving conflicts quickly, even if it means making personal compromises.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 12,
+      "text": "I believe listening is more important than speaking during a disagreement.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 13,
+      "text": "I feel confident negotiating with others to resolve disputes.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 14,
+      "text": "I believe some conflicts cannot be resolved and should be left alone.",
+      "weights": { "morality": 2, "order": 3 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 15,
+      "text": "I avoid discussing difficult topics to keep relationships intact.",
+      "weights": { "morality": 2, "order": 4 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 16,
+      "text": "I try to ensure that all parties involved in a conflict feel heard.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 17,
+      "text": "I believe honesty is the most important factor in resolving disagreements.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 18,
+      "text": "I often rely on rules or procedures to settle conflicts.",
+      "weights": { "morality": 2, "order": 5 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 19,
+      "text": "I value fairness over maintaining personal relationships during disagreements.",
+      "weights": { "morality": 3, "order": 3 },
+      "category": "Conflict Resolution Style"
+    },
+    {
+      "id": 20,
+      "text": "I believe conflicts are opportunities to strengthen relationships.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Conflict Resolution Style"
+    }
+  ]
+  

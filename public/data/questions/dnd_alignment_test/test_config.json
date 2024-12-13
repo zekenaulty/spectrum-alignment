@@ -1,0 +1,97 @@
+{
+  "name": "D&D Alignment Test",
+  "description": "A two-axis test measuring Morality and Order, inspired by Dungeons & Dragons alignment systems.",
+  "version": "1.0",
+  
+  "axes": {
+    "morality": {
+      "label": "Morality",
+      "scaleFactor": 0.25,
+      "baseOffset": 150,
+      "classifications": [
+        { "name": "Good", "min": 201, "max": 250 },
+        { "name": "Neutral", "min": 126, "max": 200 },
+        { "name": "Evil", "min": 50, "max": 125 }
+      ]
+    },
+    "order": {
+      "label": "Order",
+      "scaleFactor": 0.25,
+      "baseOffset": 150,
+      "classifications": [
+        { "name": "Lawful", "min": 201, "max": 250 },
+        { "name": "Neutral", "min": 126, "max": 200 },
+        { "name": "Chaotic", "min": 50, "max": 125 }
+      ]
+    }
+  },
+
+  "scoring": {
+    "baseNeutral": 3,
+    "responseRange": [1, 5],
+    "aggregationMethod": "sum_of((response - baseNeutral) * weight)",
+    "normalization": {
+      "scaleMethod": "multiply_by_scaleFactor_and_add_baseOffset",
+      "details": "After summing all weighted offsets, each axis score is scaled: final_score = (raw_score * scaleFactor) + baseOffset.",
+      "example": "If raw_score = 200, final = (200 * 0.25) + 150 = 200."
+    }
+  },
+
+  "interpretation": {
+    "combination": "pair_axes",
+    "axisOrder": ["order", "morality"],
+    "mappings": [
+      {
+        "conditions": { "order": "Lawful", "morality": "Good" },
+        "result": "Lawful Good",
+        "description": "You value helping others within structured, traditional frameworks. You are a paragon of virtue and order."
+      },
+      {
+        "conditions": { "order": "Neutral", "morality": "Good" },
+        "result": "Neutral Good",
+        "description": "You do what is right without feeling bound by strict rules. You prioritize goodness, but remain flexible in your approach."
+      },
+      {
+        "conditions": { "order": "Chaotic", "morality": "Good" },
+        "result": "Chaotic Good",
+        "description": "You champion the cause of goodness, unconstrained by convention. Freedom and personal choice fuel your altruistic acts."
+      },
+      {
+        "conditions": { "order": "Lawful", "morality": "Neutral" },
+        "result": "Lawful Neutral",
+        "description": "You respect law and order, remaining impartial rather than leaning toward good or evil. Stability and consistency guide you."
+      },
+      {
+        "conditions": { "order": "Neutral", "morality": "Neutral" },
+        "result": "True Neutral",
+        "description": "You seek balance in all things. Neither good nor evil, law nor chaos strongly sway you. You value harmony and adaptability."
+      },
+      {
+        "conditions": { "order": "Chaotic", "morality": "Neutral" },
+        "result": "Chaotic Neutral",
+        "description": "You prize personal freedom above all else. You follow your own path, caring little for structures or moral imperatives."
+      },
+      {
+        "conditions": { "order": "Lawful", "morality": "Evil" },
+        "result": "Lawful Evil",
+        "description": "You use established systems to serve selfish or harmful ends. Discipline and structure help you gain power or dominate others."
+      },
+      {
+        "conditions": { "order": "Neutral", "morality": "Evil" },
+        "result": "Neutral Evil",
+        "description": "You act primarily in your own interest, unconcerned with the welfare of others or fidelity to rules. You are selfish and self-serving."
+      },
+      {
+        "conditions": { "order": "Chaotic", "morality": "Evil" },
+        "result": "Chaotic Evil",
+        "description": "You embrace chaos and personal freedom at the expense of others. You reject order, compassion, and restraint."
+      }
+    ]
+  },
+
+  "categoriesConfig": {
+    "file": "categories.json",
+    "loadMethod": "runtime_fetch",
+    "description": "Categories and their respective question files are defined in categories.json. Each category file provides the questions and weights needed to evaluate the axes."
+  }
+}

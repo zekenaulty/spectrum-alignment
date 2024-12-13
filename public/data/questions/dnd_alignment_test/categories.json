@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Empathy and Altruism",
+      "description": "Measures the individual's concern for others, their willingness to help, and their emotional connection to the well-being of others.",
+      "file": "empathy_and_altruism.json"
+    },
+    {
+      "id": 2,
+      "name": "Respect for Rules and Authority",
+      "description": "Assesses how much the individual values structure, traditions, and adherence to established norms and rules.",
+      "file": "respect_for_rules_and_authority.json"
+    },
+    {
+      "id": 3,
+      "name": "Conflict Resolution Style",
+      "description": "Evaluates how the individual approaches disagreements, whether through compromise, direct confrontation, or other means.",
+      "file": "conflict_resolution_style.json"
+    },
+    {
+      "id": 4,
+      "name": "Social Risk-Taking",
+      "description": "Explores the individual's comfort with challenging norms, taking risks in social situations, and embracing unconventional approaches.",
+      "file": "social_risk_taking.json"
+    },
+    {
+      "id": 5,
+      "name": "Consistency of Actions and Beliefs",
+      "description": "Measures the individual's alignment between their actions and principles, as well as their reliability and predictability in social contexts.",
+      "file": "consistency_of_actions_and_beliefs.json"
+    }
+  ]
+  

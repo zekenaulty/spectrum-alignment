@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "text": "I often think about how my actions affect others.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 2,
+      "text": "Helping someone in need feels more rewarding than achieving a personal goal.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 3,
+      "text": "I feel a sense of responsibility for the well-being of my community.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 4,
+      "text": "I find it difficult to ignore someone who is clearly in distress.",
+      "weights": { "morality": 4, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 5,
+      "text": "I often consider other people's perspectives before making a decision.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 6,
+      "text": "I believe most people deserve compassion, even if they have made mistakes.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 7,
+      "text": "I am more likely to help someone if I feel a personal connection to them.",
+      "weights": { "morality": 3, "order": 1 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 8,
+      "text": "I feel uncomfortable when I see others being treated unfairly.",
+      "weights": { "morality": 4, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 9,
+      "text": "I believe it is important to stand up for people who cannot stand up for themselves.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 10,
+      "text": "I sometimes put the needs of others above my own, even when it is inconvenient.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 11,
+      "text": "I regularly volunteer my time to help others, even without personal gain.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 12,
+      "text": "I prioritize fairness when mediating conflicts between others.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 13,
+      "text": "I often feel empathy for strangers I encounter in difficult situations.",
+      "weights": { "morality": 4, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 14,
+      "text": "I find myself motivated to make a difference in the lives of those less fortunate.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 15,
+      "text": "I am willing to take personal risks to help someone in need.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 16,
+      "text": "I enjoy working with others to achieve a goal that benefits the community.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 17,
+      "text": "I often give others the benefit of the doubt in difficult situations.",
+      "weights": { "morality": 4, "order": 1 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 18,
+      "text": "I feel a personal responsibility to address injustices in my community.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 19,
+      "text": "I often put others' needs ahead of my own comfort or convenience.",
+      "weights": { "morality": 5, "order": 0 },
+      "category": "Empathy and Altruism"
+    },
+    {
+      "id": 20,
+      "text": "I believe showing kindness to others creates a ripple effect that improves society.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Empathy and Altruism"
+    }
+  ]
+  

@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "text": "I strive to align my actions with my core values.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 2,
+      "text": "I feel uncomfortable when my actions contradict my principles.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 3,
+      "text": "I believe it is important to practice what I preach.",
+      "weights": { "morality": 5, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 4,
+      "text": "I make an effort to keep my promises, even when it is inconvenient.",
+      "weights": { "morality": 5, "order": 1 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 5,
+      "text": "I often reflect on whether my actions align with my long-term goals.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 6,
+      "text": "I value honesty and try to be truthful in all situations.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 7,
+      "text": "I avoid making excuses when I fail to uphold my commitments.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 8,
+      "text": "I feel it is important to admit when I am wrong.",
+      "weights": { "morality": 4, "order": 1 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 9,
+      "text": "I consistently prioritize my values over short-term gains.",
+      "weights": { "morality": 5, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 10,
+      "text": "I believe that being dependable is a key part of being a good person.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 11,
+      "text": "I strive to act consistently, regardless of who I am with.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 12,
+      "text": "I believe it is important to follow through on commitments, even when circumstances change.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 13,
+      "text": "I try to live in a way that reflects my personal ethics.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 14,
+      "text": "I often evaluate whether my decisions align with my moral beliefs.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 15,
+      "text": "I feel guilty when I act in a way that contradicts my values.",
+      "weights": { "morality": 4, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 16,
+      "text": "I believe that integrity is more important than personal convenience.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 17,
+      "text": "I try to act in ways that I would be proud of if others knew about them.",
+      "weights": { "morality": 5, "order": 2 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 18,
+      "text": "I hold myself accountable for the consequences of my actions.",
+      "weights": { "morality": 4, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 19,
+      "text": "I believe consistency in behavior builds trust in relationships.",
+      "weights": { "morality": 5, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    },
+    {
+      "id": 20,
+      "text": "I try to align my daily actions with my broader purpose in life.",
+      "weights": { "morality": 5, "order": 3 },
+      "category": "Consistency of Actions and Beliefs"
+    }
+  ]
+  
