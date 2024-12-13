@@ -10,7 +10,17 @@ const QuestionWizard = () => {
   const { testId } = useParams();
   const navigate = useNavigate();
   const { questions, loading, error } = useQuestions(testId);
+  const testIdToTestName = () => {
+    if (!testId) return "Unknown Test";
+  
+    // Split by dashes, capitalize each word, and join back with spaces
+    return testId
+      .split('-')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  };
 
+  const testName = testIdToTestName();
   const {
     currentIndex,
     responses,
@@ -41,7 +51,7 @@ const QuestionWizard = () => {
 
   return (
     <div className="container">
-      <h2>{question.category}</h2>
+      <h2>{testName} - {question.category}</h2>
       <ProgressBar current={currentIndex + 1} total={questions.length} />
       <Question
         question={question}

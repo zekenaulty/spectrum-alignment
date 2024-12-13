@@ -7,7 +7,7 @@ import NotFound from './pages/notFound.jsx';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/spectrum-alignment/">
       <Routes>
         <Route path="/" element={<TestSelection />} />
         <Route path="/test/:testId" element={<TestLoader />}>

@@ -2,9 +2,10 @@ import PropTypes from 'prop-types';
 
 const ProgressBar = ({ current, total }) => {
   const percent = Math.round((current / total) * 100);
+
   return (
-    <div className="mb-3">
-      <div className="progress" style={{ height: '20px' }}>
+    <div className="mb-3 position-relative" style={{width: '100%', height: '20px'}}>
+      <div className="progress" style={{height: '100%'}}>
         <div
           className="progress-bar"
           role="progressbar"
@@ -12,10 +13,14 @@ const ProgressBar = ({ current, total }) => {
           aria-valuenow={current}
           aria-valuemin={1}
           aria-valuemax={total}
-        >
-          {current}/{total}
-        </div>
+        />
       </div>
+      <span 
+        className="position-absolute text-center w-100" 
+        style={{ top: '0', left: '0', lineHeight: '20px' }}
+      >
+        {current}/{total}
+      </span>
     </div>
   );
 };

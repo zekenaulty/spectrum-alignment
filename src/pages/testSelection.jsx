@@ -2,10 +2,8 @@ import { useNavigate } from 'react-router-dom';
 
 const TestSelection = () => {
   const navigate = useNavigate();
-
-  // For now, we have only one test: dnd_alignment_test
   const handleClick = () => {
-    navigate('/test/dnd_alignment_test');
+    navigate('/test/alignment-test');
   };
 
   return (
