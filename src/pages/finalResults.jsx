@@ -1,3 +1,4 @@
+// src/pages/finalResults.jsx
 import { useEffect, useState } from 'react';
 import { useLocation, useParams, useNavigate } from 'react-router-dom';
 import useConfig from '../hooks/useConfig.js';
@@ -23,6 +24,10 @@ const FinalResults = () => {
     if (!configLoading && !qLoading && config && questions.length) {
       const result = calculateScores(config, questions, state.responses);
       setFinalResult(result);
+
+      // Clear localStorage since the test is complete
+      localStorage.removeItem(`${testId}_responses`);
+      localStorage.removeItem(`${testId}_currentIndex`);
     }
   }, [state, config, questions, configLoading, qLoading, navigate, testId]);
 

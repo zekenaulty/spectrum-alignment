@@ -1,10 +1,5 @@
 import PropTypes from 'prop-types';
 
-ProgressBar.propTypes = {
-  current: PropTypes.number.isRequired,
-  total: PropTypes.number.isRequired
-};
-
 const ProgressBar = ({ current, total }) => {
   const percent = Math.round((current / total) * 100);
   return (
@@ -23,6 +18,11 @@ const ProgressBar = ({ current, total }) => {
       </div>
     </div>
   );
+};
+
+ProgressBar.propTypes = {
+  current: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired
 };
 
 export default ProgressBar;

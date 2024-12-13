@@ -1,6 +1,17 @@
 import Question from './question.jsx';
 import PropTypes from 'prop-types';
 
+const CategorySection = ({ category, questions, responses, onChange }) => {
+  return (
+    <div className="mb-4">
+      <h3>{category.name}</h3>
+      {questions.map(q => (
+        <Question key={q.id} question={q} value={responses[q.id]} onChange={onChange} />
+      ))}
+    </div>
+  );
+};
+
 CategorySection.propTypes = {
   category: PropTypes.shape({
     id: PropTypes.number.isRequired,
@@ -16,17 +27,6 @@ CategorySection.propTypes = {
   })).isRequired,
   responses: PropTypes.objectOf(PropTypes.number).isRequired,
   onChange: PropTypes.func.isRequired
-};
-
-const CategorySection = ({ category, questions, responses, onChange }) => {
-  return (
-    <div className="mb-4">
-      <h3>{category.name}</h3>
-      {questions.map(q => (
-        <Question key={q.id} question={q} value={responses[q.id]} onChange={onChange} />
-      ))}
-    </div>
-  );
 };
 
 export default CategorySection;

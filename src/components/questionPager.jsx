@@ -1,12 +1,5 @@
 import PropTypes from 'prop-types';
 
-QuestionPager.propTypes = {
-  onNext: PropTypes.func.isRequired,
-  onBack: PropTypes.func.isRequired,
-  canGoBack: PropTypes.bool.isRequired,
-  nextLabel: PropTypes.string.isRequired
-};
-
 const QuestionPager = ({ onNext, onBack, canGoBack, nextLabel = "Next" }) => {
   return (
     <div className="d-flex justify-content-between mt-3">
@@ -14,6 +7,13 @@ const QuestionPager = ({ onNext, onBack, canGoBack, nextLabel = "Next" }) => {
       <button className="btn btn-primary" onClick={onNext}>{nextLabel}</button>
     </div>
   );
+};
+
+QuestionPager.propTypes = {
+  onNext: PropTypes.func.isRequired,
+  onBack: PropTypes.func.isRequired,
+  canGoBack: PropTypes.bool.isRequired,
+  nextLabel: PropTypes.string.isRequired
 };
 
 export default QuestionPager;

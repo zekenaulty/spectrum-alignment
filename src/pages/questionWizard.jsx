@@ -1,3 +1,4 @@
+// src/pages/questionWizard.jsx
 import { useParams, useNavigate } from 'react-router-dom';
 import useTestState from '../hooks/useTestState.js';
 import useQuestions from '../hooks/useQuestions.js';
@@ -9,6 +10,7 @@ const QuestionWizard = () => {
   const { testId } = useParams();
   const navigate = useNavigate();
   const { questions, loading, error } = useQuestions(testId);
+
   const {
     currentIndex,
     responses,
@@ -16,11 +18,11 @@ const QuestionWizard = () => {
     nextQuestion,
     prevQuestion,
     isLastQuestion
-  } = useTestState(questions);
+  } = useTestState(questions, testId);
 
   const handleNext = () => {
     if (isLastQuestion) {
-      // Submit and go to results
+      // On finishing, consider clearing localStorage or not until after results
       navigate(`/test/${testId}/results`, { state: { responses } });
     } else {
       nextQuestion();

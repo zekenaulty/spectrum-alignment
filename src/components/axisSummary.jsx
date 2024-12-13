@@ -1,13 +1,5 @@
 import PropTypes from 'prop-types';
 
-AxisSummary.propTypes = {
-  axesResults: PropTypes.objectOf(PropTypes.shape({
-    label: PropTypes.string.isRequired,
-    finalScore: PropTypes.number.isRequired,
-    classification: PropTypes.string.isRequired
-  })).isRequired
-};
-
 const AxisSummary = ({ axesResults }) => {
   return (
     <div className="mb-4">
@@ -19,6 +11,14 @@ const AxisSummary = ({ axesResults }) => {
       ))}
     </div>
   );
+};
+
+AxisSummary.propTypes = {
+  axesResults: PropTypes.objectOf(PropTypes.shape({
+    label: PropTypes.string.isRequired,
+    finalScore: PropTypes.number.isRequired,
+    classification: PropTypes.string.isRequired
+  })).isRequired
 };
 
 export default AxisSummary;

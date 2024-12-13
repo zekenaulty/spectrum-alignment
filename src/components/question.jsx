@@ -1,16 +1,5 @@
 import PropTypes from 'prop-types';
 
-Question.propTypes = {
-  question: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    text: PropTypes.string.isRequired,
-    weights: PropTypes.object.isRequired, // { [axisName]: number }
-    category: PropTypes.string.isRequired
-  }).isRequired,
-  value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  onChange: PropTypes.func.isRequired
-};
-
 const Question = ({ question, value, onChange }) => {
   return (
     <div className="mb-3">
@@ -35,6 +24,17 @@ const Question = ({ question, value, onChange }) => {
       </div>
     </div>
   );
+};
+
+Question.propTypes = {
+  question: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    text: PropTypes.string.isRequired,
+    weights: PropTypes.object.isRequired, // { [axisName]: number }
+    category: PropTypes.string.isRequired
+  }).isRequired,
+  value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+  onChange: PropTypes.func.isRequired
 };
 
 export default Question;

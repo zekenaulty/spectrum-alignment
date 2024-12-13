@@ -1,12 +1,5 @@
 import PropTypes from 'prop-types';
 
-Result.propTypes = {
-  interpretation: PropTypes.shape({
-    result: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
-  })
-};
-
 const Result = ({ interpretation }) => {
   if (!interpretation) return null;
   const { result, description } = interpretation;
@@ -16,6 +9,13 @@ const Result = ({ interpretation }) => {
       <p>{description}</p>
     </div>
   );
+};
+
+Result.propTypes = {
+  interpretation: PropTypes.shape({
+    result: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
+  })
 };
 
 export default Result;

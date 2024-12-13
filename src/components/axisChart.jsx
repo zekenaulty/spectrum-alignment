@@ -1,13 +1,5 @@
 import PropTypes from 'prop-types';
 
-AxisChart.propTypes = {
-  axesResults: PropTypes.objectOf(PropTypes.shape({
-    label: PropTypes.string.isRequired,
-    finalScore: PropTypes.number.isRequired,
-    classification: PropTypes.string.isRequired
-  })).isRequired
-};
-
 const AxisChart = ({ axesResults }) => {
   // For simplicity, just display axis scores.
   // In a real scenario, integrate with a chart library (e.g. Chart.js).
@@ -23,6 +15,14 @@ const AxisChart = ({ axesResults }) => {
       </ul>
     </div>
   );
+};
+
+AxisChart.propTypes = {
+  axesResults: PropTypes.objectOf(PropTypes.shape({
+    label: PropTypes.string.isRequired,
+    finalScore: PropTypes.number.isRequired,
+    classification: PropTypes.string.isRequired
+  })).isRequired
 };
 
 export default AxisChart;
